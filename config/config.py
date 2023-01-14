@@ -18,7 +18,7 @@ load_dotenv()
 
 # Get it from my.telegram.org
 API_ID = int(getenv("API_ID", "9437694"))
-API_HASH = getenv("API_HASH"", "a92d2a0db24372f12ff42b0fe6469631")
+API_HASH = getenv("API_HASH"", ")
 
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -44,7 +44,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "2069112486").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
